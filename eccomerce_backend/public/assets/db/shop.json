@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Dress1",
+      "path": "/assets/images/1.jpg",
+      "pcode": "D1",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "product_name": "Dress2",
+      "path": "/assets/images/2.jpg",
+      "pcode": "D2",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "product_name": "Dress3",
+      "path": "/assets/images/3.jpg",
+      "pcode": "D3",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "product_name": "Dress4",
+      "path": "/assets/images/4.jpg",
+      "pcode": "D4",
+      "price": 400
+    },
+    {
+      "id": 5,
+      "product_name": "Dress5",
+      "path": "/assets/images/5.jpg",
+      "pcode": "D5",
+      "price": 500
+    },
+    {
+      "id": 6,
+      "product_name": "Dress6",
+      "path": "/assets/images/6.jpg",
+      "pcode": "D6",
+      "price": 600
+    },
+    {
+      "id": 7,
+      "product_name": "Dress7",
+      "path": "/assets/images/7.jpg",
+      "pcode": "D7",
+      "price": 700
+    },
+    {
+      "id": 8,
+      "product_name": "Dress8",
+      "path": "/assets/images/8.jpg",
+      "pcode": "D8",
+      "price": 800
+    },
+    {
+      "id": 9,
+      "product_name": "Dress9",
+      "path": "/assets/images/9.jpg",
+      "pcode": "D9",
+      "price": 900
+    },
+    {
+      "id": 10,
+      "product_name": "Dress10",
+      "path": "/assets/images/10.jpg",
+      "pcode": "D10",
+      "price": 1000
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "product_path": "/assets/images/1.jpg",
+      "product_name": "Dress1",
+      "product_price": 100
+    }
+  ]
+}

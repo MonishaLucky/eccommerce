@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const productRoutes = require('./routes/product');
 const orderRoutes = require('./routes/order');
 const app = express();
+const path = require('path');
 
 app.use(bodyparser.json());
 app.use(cors());
@@ -17,5 +18,11 @@ mongoose.connect('mongodb+srv://monisha:monisha@cluster0.fujqh.mongodb.net/eccom
 
 app.use("/orders", orderRoutes);
 app.use("/products", productRoutes);
+
+app.use(express.static(path.join(__dirname, "public")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "public/index.html"));
+})
 
 module.exports = app;
